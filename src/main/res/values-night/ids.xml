@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="placeIn" type="id" />
+    <item name="departureIn" type="id" />
+    <item name="arrivalIn" type="id" />
+    <item name="button" type="id" />
+    <item name="priceIn" type="id" />
+</resources>

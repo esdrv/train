@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:text="Новый заказ"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#BDB76B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#F5F5F5"
+        android:ems="20"
+        android:hint="ID пользователя"
+        android:paddingStart="14sp"
+        android:textColor="#BDB76B"
+        android:textColorHint="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/placeIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#F5F5F5"
+        android:ems="20"
+        android:hint="Место"
+        android:paddingStart="14sp"
+        android:textColor="#BDB76B"
+        android:textColorHint="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userId"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/departureIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#F5F5F5"
+        android:ems="20"
+        android:hint="Время отправления"
+        android:paddingStart="14sp"
+        android:textColor="#BDB76B"
+        android:textColorHint="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/placeIn"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/arrivalIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#F5F5F5"
+        android:ems="20"
+        android:hint="Время прибытия"
+        android:paddingStart="14sp"
+        android:textColor="#BDB76B"
+        android:textColorHint="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/departureIn"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/priceIn"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="25dp"
+        android:background="#F5F5F5"
+        android:ems="20"
+        android:hint="Цена билета"
+        android:paddingStart="14sp"
+        android:textColor="#BDB76B"
+        android:textColorHint="#C0C0C0"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/arrivalIn"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="65dp"
+        android:text="Передача данных в другую активность"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/priceIn"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
